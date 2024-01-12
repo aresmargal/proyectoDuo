@@ -4,6 +4,10 @@
  */
 package holadam;
 
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+
 /**
  *
  * @author sobblaas
@@ -15,6 +19,10 @@ public class HolaDAM {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Hola usuario");
+        System.out.println("Son las: " + 
+                DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM).format(LocalTime.now()));
+        System.out.println("Hace un buen dia");
     }
     
 }
