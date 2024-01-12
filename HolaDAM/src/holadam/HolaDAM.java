@@ -19,6 +19,13 @@ public class HolaDAM {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        System.out.println("Hola DAM");
+        System.out.println("Hola DAM");
+        System.out.println("Hola DAM");
+        System.out.println("Hola DAM");
+        System.out.println("Hola DAM");
+
         // TODO code application logic here
         System.out.println("Hola usuario");
         System.out.println("Son las: " + 
