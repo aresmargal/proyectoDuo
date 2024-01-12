@@ -25,4 +25,8 @@ public class HolaDAM {
         System.out.println("Hace un buen dia");
     }
     
+    public static int hacerSuma(int a, int b){
+        return a+b;
+    }
+    
 }
