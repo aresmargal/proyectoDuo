@@ -7,6 +7,7 @@ package holadam;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
+import java.util.Scanner;
 
 /**
  *
@@ -23,6 +24,13 @@ public class HolaDAM {
         System.out.println("Son las: " + 
                 DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM).format(LocalTime.now()));
         System.out.println("Hace un buen dia");
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Numero A: ");
+        int a = sc.nextInt();        
+        System.out.print("Numero B: ");
+        int b = sc.nextInt();       
+        System.out.println(a + " + " + b + " = " + hacerSuma(a,b));
     }
     
     public static int hacerSuma(int a, int b){
